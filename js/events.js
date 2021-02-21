@@ -43,6 +43,8 @@ pressIt();
 submitIt();
 
 $(document).ready(function(){
-// call functions here
-  window.getIt();
+  $("form").on("submit", function() {
+    alert('Your form is going to be submitted now.');
+    return;
+  }
 });
