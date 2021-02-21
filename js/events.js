@@ -1,7 +1,7 @@
 //define functions here
 function getIt() {
   $("p").on("click", function() {
-    window.alert("Hey!");
+    alert("Hey!");
   })
 }
 
@@ -14,7 +14,7 @@ function frameIt() {
 function pressIt() {
   $("#typing").on("keydown", function(key) {
     if (key.which === 71) {
-      window.alert('G key was pressed');
+      alert('G key was pressed');
       return;
     }
     return;
@@ -32,7 +32,7 @@ function pressIt() {
 
 function submitIt() {
   $("form").on("submit", function() {
-    window.alert('Your form is going to be submitted now.');
+    alert('Your form is going to be submitted now.');
     return;
   }
 }
